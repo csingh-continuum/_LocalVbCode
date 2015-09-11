@@ -42,6 +42,7 @@ Sub Main()
 80        LogNotify "Main", "INFO", "START"
           
 90        If OpenConnection = True Then
+              LogNotify "Main", "INFO", "Connection Success"
 100           AlertFilesNewUpdateClose
 110           LogNotify "Main", "INFO", "Total new tickets raised : " & lngNewTickets
 120           LogNotify "Main", "INFO", "Total tickets closed : " & lngTicketsClosed
